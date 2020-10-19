@@ -1,0 +1,37 @@
+
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+ @media (max-width: 500px){
+	.container{
+		width:400px;
+	}
+}
+
+body{
+	margin:0px;
+}
+
+@media (max-width: 760px){
+	.container{
+		width:600px;
+	}
+}
+
+a{
+	text-decoration: none;
+}
+
+
+img {
+	width: 100px;
+	height:100px;
+}
+h1{
+	font:Helvetica;
+	font-size: 80px;
+}
